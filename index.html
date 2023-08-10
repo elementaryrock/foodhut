@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="nav">
+      <img
+        src="food.svg"
+        alt=""
+      />
+      <h4>Home</h4>
+      <h4>Food Gallery</h4>
+      <h4>Recipies</h4>
+      <h4>About Me</h4>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+    <video
+      autoplay
+      loop
+      muted
+      src="food_video.mp4"
+      type="video/mp4"
+    ></video>
+    <div id="main">
+      <div id="page1">
+        <h1>Live.Create.Enjoy.</h1>
+        <h2>Hi There Netizen!</h2>
+        <p>
+          You have reached every food lover's favourite destination created with love by Maanas MS. This site is best - viewed on desktop .
+        </p>
+        <div id="arrow">
+          <a href="#scroller"><i class="ri-arrow-down-line"></i></a>
+        </div>
+      </div>
+      <div id="page2">
+        <div id="scroller">
+          <div id="scroller-in">
+            <h4>Burger</h4>
+            <h4>Chocolate Fudge</h4>
+            <h4>Icecream</h4>
+            <h4>Pizzza</h4>
+            <h4>Sandwich</h4>
+          </div>
+          <div id="scroller-in">
+            <h4>Burger</h4>
+            <h4>Chocolate Fudge</h4>
+            <h4>Icecream</h4>
+            <h4>Pizzza</h4>
+            <h4>Sandwich</h4>
+          </div>
+          
+        </div>
+        <div id="about-us">
+          <img src="chocolate_fudge.jpg" alt="">
+          <div id="about-us-in">
+            <h3>About Me</h3>
+            <p>Welcome to site. This is a project which I have made by following a tutorial on youtube. Give me your opinion about this page on github or through email option on my personal website.  </p>
+          </div>
+          <img src="burger.jpg" alt="">
+        </div>
+        <div id="cards-container">
+          <div class="card" id="card1">
+            <div class="overlay">
+              <h4>Icecream</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi quasi illo temporibus soluta ducimus neque deleniti at obcaecati praesentium.</p>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <div class="overlay">
+              <h4>Sandwich</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi quasi illo temporibus soluta ducimus neque deleniti at obcaecati praesentium.</p>
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <div class="overlay">
+              <h4>Pizza</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi quasi illo temporibus soluta ducimus neque deleniti at obcaecati praesentium.</p>
+            </div>
+          </div>
+        </div>
+        <div id="red-div">
+          <img src="tomato.svg" alt="">
+          <h4>This is a red bar</h4>
+          <img src="tomato.svg" alt="">
+        </div>
+      </div>
+      <div id="page3">
+        <img id="colon1"  src="quote-left.svg" alt="">
+        <h4>After a good dinner one can forgive anybody, even one’s own relatives.<i> – Oscar Wilde</i></h4>
+        <img id="colon2"  src="quote-right.svg" alt="">
+      </div>
+      <div id="page4">
+        <h1>Who doesn't love Food</h1>
+        <div class="elem">
+          <h2>Burger</h2>
+          <img src="burger.jpg" alt="">
+        </div>
+        <div class="elem">
+          <h2>Icecream</h2>
+          <img src="icecream.jpg" alt="">
+        </div>
+        <div class="elem">
+          <h2>Chocolate Fudge</h2>
+          <img src="chocolate_fudge.jpg" alt="">
+        </div>
+      </div>
+      <div id="footer">
+        <img
+          src="dots2.svg"
+          alt=""
+        />
+        <div id="f1">
+          <img
+            src="food.svg"
+            alt=""
+          />
+        </div>
+        <div id="f2">
+          <h3>Home</h3>
+          <h3>Food Gallery</h3>
+        </div>
+        <div id="f3">
+          <h3>Recipies</h3>
+          <h3>About Me</h3>
+        </div>
+        <div id="f4">
+          <h4>
+            Made with <i class="ri-heart-3-line"></i> by <a href="https://www.maanasms.eu.org">Maanas MS</a>
+          </h4>
+        </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
